@@ -34,12 +34,12 @@
 
 **Quick version:**
 
-1. **Log into Namecheap**: https://ap.www.namecheap.com/domains/list/
-2. **Click Manage** on rayvise.ca
-3. **Switch nameservers** from Wix to Namecheap BasicDNS:
+1. **Log into Netfirms**: https://www.netfirms.com
+2. **Navigate to Domain Manager** and click Manage on rayvise.ca
+3. **Switch nameservers** from Wix to Netfirms default DNS:
    - Current: `ns2.wixdns.net`, `ns3.wixdns.net`
-   - New: `dns1.registrar-servers.com`, `dns2.registrar-servers.com`
-4. **Go to Advanced DNS tab**, add these records:
+   - New: Netfirms default nameservers (check your control panel)
+4. **Go to DNS Management/Zone Editor**, add these records:
 
    ```
    A Record:  @ → 185.199.108.153
@@ -182,7 +182,7 @@ open https://sixspeedpaul.github.io/rayvise/
 
 - **DNS Issues**: Read `DNS-SETUP-GUIDE.md`
 - **GitHub Pages**: https://docs.github.com/en/pages
-- **Namecheap Support**: https://www.namecheap.com/support/
+- **Netfirms Support**: https://www.netfirms.com/contact/
 - **Google Workspace**: https://admin.google.com
 
 ---

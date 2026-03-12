@@ -12,33 +12,33 @@
 
 ### Current Situation
 
-Your domain `rayvise.ca` is registered with **Namecheap** but was configured to use **Wix** DNS servers. You need to:
+Your domain `rayvise.ca` is registered with **Netfirms** but was configured to use **Wix** DNS servers. You need to:
 - **Keep your email working** (currently hosted with Google Workspace/Gmail)
 - **Point the website to GitHub Pages**
 
-### Option 1: Use Namecheap DNS (RECOMMENDED)
+### Option 1: Use Netfirms DNS (RECOMMENDED)
 
 This keeps email and website management in one place.
 
-#### Step 1: Switch Back to Namecheap DNS
+#### Step 1: Switch Back to Netfirms DNS
 
-1. Go to: https://ap.www.namecheap.com/domains/list/
-2. Click **Manage** next to `rayvise.ca`
-3. Scroll to **NAMESERVERS** section
-4. Select: **Namecheap BasicDNS** (or **Namecheap PremiumDNS**)
-5. Click the checkmark to save
+1. Go to: https://www.netfirms.com (login to your account)
+2. Navigate to **Domains** or **Domain Manager**
+3. Click **Manage** next to `rayvise.ca`
+4. Find **Nameservers** section
+5. Switch from Wix nameservers to **Netfirms default nameservers**
 
-**Current nameservers** (probably Wix):
-- `ns1.wix.com`
-- `ns2.wix.com`
+**Current nameservers** (Wix):
+- `ns2.wixdns.net`
+- `ns3.wixdns.net`
 
-**New nameservers** (Namecheap default):
-- `dns1.registrar-servers.com`
-- `dns2.registrar-servers.com`
+**New nameservers** (Netfirms default):
+- Check your Netfirms control panel for their default nameservers
+- Usually something like `ns1.netfirms.com` / `ns2.netfirms.com`
 
-#### Step 2: Configure DNS Records in Namecheap
+#### Step 2: Configure DNS Records in Netfirms
 
-1. Still on the domain management page, click **Advanced DNS** tab
+1. In your domain control panel, find **DNS Management** or **DNS Zone Editor**
 2. Add/edit the following records:
 
 **For Website (GitHub Pages):**
@@ -90,6 +90,12 @@ If you want to keep using Wix nameservers:
 
 **I don't recommend this** because managing DNS through Wix is more restrictive.
 
+### Option 3: Use Namecheap DNS (If You Have an Account)
+
+If you also have a Namecheap account and prefer their DNS:
+1. Point Netfirms nameservers to Namecheap's
+2. Manage DNS through Namecheap instead
+
 ---
 
 ## 🕐 Timeline
@@ -130,7 +136,7 @@ After making changes, verify:
 
 - If you're not using Wix for anything else, **switch away from their DNS**
 - Wix nameservers are designed for Wix hosting
-- You'll have more control with Namecheap DNS
+- You'll have more control with Netfirms DNS (or Namecheap if you prefer)
 
 ---
 
@@ -200,7 +206,8 @@ Standard Google MX records (priority in parentheses):
 
 ## 📞 Support Contacts
 
-- **Namecheap Support**: https://www.namecheap.com/support/
+- **Netfirms Support**: https://www.netfirms.com/contact/
+- **Namecheap Support** (if using their DNS): https://www.namecheap.com/support/
 - **GitHub Pages Docs**: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site
 - **Google Workspace Support**: https://support.google.com/a
 
@@ -208,7 +215,7 @@ Standard Google MX records (priority in parentheses):
 
 ## 🎯 Quick Summary (TL;DR)
 
-1. **Switch nameservers** to Namecheap BasicDNS
+1. **Switch nameservers** to Netfirms default DNS (from Wix)
 2. **Add 4 A records** for @ pointing to GitHub IPs
 3. **Add CNAME** for www → sixspeedpaul.github.io
 4. **Keep all MX and TXT records** for email
