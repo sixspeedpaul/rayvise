@@ -3,7 +3,9 @@
 **Domain:** rayvise.ca  
 **Tech Stack:** React 19 + Vite + GSAP + Tailwind CSS  
 **Generated:** 2026-03-12 by Kimi AI  
-**Status:** Development (not deployed)
+**Status:** ✅ Deployed to GitHub Pages  
+**Live URL:** https://sixspeedpaul.github.io/rayvise/ (temporary until DNS configured)  
+**GitHub Repo:** https://github.com/sixspeedpaul/rayvise
 
 ## Overview
 
