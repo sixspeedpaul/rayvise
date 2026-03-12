@@ -1,0 +1,14 @@
+# robots.txt for rayvise.ca
+
+User-agent: *
+Allow: /
+
+# Disallow build artifacts and source files
+Disallow: /assets/
+Disallow: /src/
+
+# Sitemap
+Sitemap: https://rayvise.ca/sitemap.xml
+
+# Crawl-delay (be nice to bots)
+Crawl-delay: 1
