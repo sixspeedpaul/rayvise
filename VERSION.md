@@ -1,5 +1,12 @@
 # Rayvise Website - Version History
 
+## v1.0.1 - 2026-03-12
+**Type:** Bug Fix + Content Update
+- Fixed image loading (changed absolute paths to relative for GitHub Pages compatibility)
+- Updated content from photography theme to tile art portfolio
+- Changed subtitle to "Where Stone Becomes Art"
+- Updated descriptions to focus on stone inlay and geometric tile work
+
 ## v1.0.0 - 2026-03-12
 **Type:** Initial Deployment
 - First live version of rayvise.ca
