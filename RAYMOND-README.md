@@ -138,11 +138,23 @@ Just message me! Say:
 - "Hey, the homepage looks weird"
 - "The image isn't showing up"
 - "Can you undo the last change?"
+- "Rollback to version 1.0.3"
 
 I can:
 - Fix issues quickly
-- Revert changes if needed
+- Revert to any previous version
 - Explain what happened
+
+### 📌 Version Tracking
+
+Every change gets a version number (like v1.0.1, v1.0.2, etc.). 
+
+When I deploy changes, I'll tell you:
+> ✅ Changes deployed!  
+> 📦 Version: v1.0.5 (was v1.0.4)  
+> ⏪ Rollback: Just say "rollback to v1.0.4" if needed
+
+You can always go back to any previous version - nothing is ever lost!
 
 ---
 
