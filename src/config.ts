@@ -194,14 +194,14 @@ export const testimonialsConfig: TestimonialsConfig = {
       name: "David Chen", 
       title: "Architect", 
       quote: "Working with Rayvise has been a game-changer for our projects. His ability to translate complex designs into stunning stone artwork sets a new standard for tile craftsmanship.",
-      image: "./testimonial-2.jpg" 
+      image: "./testimonial-david-chen.jpg" 
     },
     { 
       id: 2, 
       name: "Emma Thompson", 
       title: "Homeowner", 
       quote: "The custom bear installation Rayvise created for our home exceeded all expectations. It's not just tile work—it's a piece of art that tells a story every time someone sees it.",
-      image: "./testimonial-3.jpg" 
+      image: "./testimonial-emma-thompson.jpg" 
     },
   ],
 };
