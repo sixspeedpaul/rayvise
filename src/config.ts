@@ -53,7 +53,7 @@ export interface HeroConfig {
 export const heroConfig: HeroConfig = {
   title: "RAYVISE",
   subtitle: "Where Stone Becomes Art",
-  backgroundImage: "/hero-main.jpg",
+  backgroundImage: "./hero-main.jpg",
   servicesLabel: "Custom Tile Art | Stone Inlay | Luxury Installations",
   copyright: "© 2024 Rayvise",
 };
@@ -79,11 +79,11 @@ export const aboutConfig: AboutConfig = {
   titleLine1: "Transforming raw stone into",
   titleLine2: "breathtaking geometric masterpieces.",
   description: "Based in Huntsville, Ontario, Rayvise is a master tile artist who pushes the boundaries of traditional craftsmanship. Each piece is a unique fusion of natural stone beauty and precision geometric design, creating stunning wildlife portraits and custom installations that transform spaces into galleries.",
-  image1: "/about-1.jpg",
+  image1: "./about-1.jpg",
   image1Alt: "Rayvise at work in the studio",
-  image2: "/about-2.jpg",
+  image2: "./about-2.jpg",
   image2Alt: "Stone material selection",
-  authorImage: "/photographer.jpg",
+  authorImage: "./photographer.jpg",
   authorName: "Rayvise",
   authorBio: "With years of experience in custom tile artistry, I specialize in creating one-of-a-kind stone inlay pieces that capture the essence of Canadian wildlife and natural beauty. Every project is a collaboration between artist and material.",
 };
@@ -109,15 +109,15 @@ export const worksConfig: WorksConfig = {
   title: "Selected Works",
   subtitle: "A curated collection of custom tile artistry and stone inlay masterpieces.",
   projects: [
-    { id: 1, title: "The Majestic Moose", category: "Wildlife Mosaic", image: "/work-4.jpg" },
-    { id: 2, title: "Northern Bear", category: "Wall Installation", image: "/work-2.jpg" },
-    { id: 3, title: "Swimming Spirit", category: "Floor Inlay", image: "/work-3.jpg" },
-    { id: 4, title: "Canadian Pride", category: "Custom Map", image: "/work-6.jpg" },
-    { id: 5, title: "Forest Guardian", category: "Entryway Design", image: "/work-1.jpg" },
-    { id: 6, title: "Modern Bathroom", category: "Residential Installation", image: "/project-bathroom.jpg" },
-    { id: 7, title: "Home Bar Feature", category: "Custom Bar Design", image: "/project-bar.jpg" },
-    { id: 8, title: "Windswept Pine", category: "Framed Art Piece", image: "/art-tree-frame.jpg" },
-    { id: 9, title: "Alpine Tree", category: "Wall Art", image: "/art-tree-whiteframe.jpg" },
+    { id: 1, title: "The Majestic Moose", category: "Wildlife Mosaic", image: "./work-4.jpg" },
+    { id: 2, title: "Northern Bear", category: "Wall Installation", image: "./work-2.jpg" },
+    { id: 3, title: "Swimming Spirit", category: "Floor Inlay", image: "./work-3.jpg" },
+    { id: 4, title: "Canadian Pride", category: "Custom Map", image: "./work-6.jpg" },
+    { id: 5, title: "Forest Guardian", category: "Entryway Design", image: "./work-1.jpg" },
+    { id: 6, title: "Modern Bathroom", category: "Residential Installation", image: "./project-bathroom.jpg" },
+    { id: 7, title: "Home Bar Feature", category: "Custom Bar Design", image: "./project-bar.jpg" },
+    { id: 8, title: "Windswept Pine", category: "Framed Art Piece", image: "./art-tree-frame.jpg" },
+    { id: 9, title: "Alpine Tree", category: "Wall Art", image: "./art-tree-whiteframe.jpg" },
   ],
 };
 
@@ -146,25 +146,25 @@ export const servicesConfig: ServicesConfig = {
       id: "01", 
       title: "Custom Wildlife Mosaics", 
       description: "Bespoke geometric animal portraits crafted from premium natural stone, perfect for feature walls and statement pieces.",
-      image: "/service-1.jpg" 
+      image: "./service-1.jpg" 
     },
     { 
       id: "02", 
       title: "Luxury Floor Inlays", 
       description: "Intricate floor medallions and patterns that transform ordinary spaces into extraordinary showcases.",
-      image: "/service-2.jpg" 
+      image: "./service-2.jpg" 
     },
     { 
       id: "03", 
       title: "Commercial Installations", 
       description: "High-end tile work for showrooms, hotels, and corporate spaces that demand the finest craftsmanship.",
-      image: "/service-3.jpg" 
+      image: "./service-3.jpg" 
     },
     { 
       id: "04", 
       title: "Custom Design Consultation", 
       description: "Collaborative design process to bring your vision to life with expert guidance on materials and execution.",
-      image: "/service-4.jpg" 
+      image: "./service-4.jpg" 
     },
   ],
 };
@@ -194,14 +194,14 @@ export const testimonialsConfig: TestimonialsConfig = {
       name: "David Chen", 
       title: "Architect", 
       quote: "Working with Rayvise has been a game-changer for our projects. His ability to translate complex designs into stunning stone artwork sets a new standard for tile craftsmanship.",
-      image: "/testimonial-2.jpg" 
+      image: "./testimonial-2.jpg" 
     },
     { 
       id: 2, 
       name: "Emma Thompson", 
       title: "Homeowner", 
       quote: "The custom bear installation Rayvise created for our home exceeded all expectations. It's not just tile work—it's a piece of art that tells a story every time someone sees it.",
-      image: "/testimonial-3.jpg" 
+      image: "./testimonial-3.jpg" 
     },
   ],
 };
@@ -309,7 +309,7 @@ export const blogConfig: BlogConfig = {
       excerpt: "How I choose the perfect materials for each unique project, from understanding veining patterns to matching colors that bring designs to life.", 
       readTime: "5 min", 
       date: "Feb 15, 2024", 
-      image: "/blog-1.jpg", 
+      image: "./blog-1.jpg", 
       category: "Craftsmanship" 
     },
     { 
@@ -318,7 +318,7 @@ export const blogConfig: BlogConfig = {
       excerpt: "Exploring the intersection of traditional mosaic techniques and contemporary geometric design in creating stunning animal portraits.", 
       readTime: "7 min", 
       date: "Jan 28, 2024", 
-      image: "/blog-2.jpg", 
+      image: "./blog-2.jpg", 
       category: "Design" 
     },
   ],
@@ -362,7 +362,7 @@ export const contactConfig: ContactConfig = {
   ],
   messageLabel: "Tell me about your project",
   submitButtonText: "Send Message",
-  image: "/contact.jpg",
+  image: "./contact.jpg",
 };
 
 // ============================================================================
