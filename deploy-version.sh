@@ -55,11 +55,24 @@ npm run build
 echo "🚀 Deploying to GitHub Pages..."
 git checkout gh-pages
 
+# Preserve CNAME file if it exists
+if [ -f CNAME ]; then
+  cp CNAME /tmp/rayvise-CNAME
+  CNAME_EXISTS=true
+else
+  CNAME_EXISTS=false
+fi
+
 # Clean old build
 rm -rf assets *.html *.jpg *.png *.css *.js 2>/dev/null || true
 
 # Copy new build (skip node_modules, dist, etc.)
 cp -r dist/* .
+
+# Restore CNAME file
+if [ "$CNAME_EXISTS" = true ]; then
+  mv /tmp/rayvise-CNAME CNAME
+fi
 
 # Remove dist directory from gh-pages
 rm -rf dist
