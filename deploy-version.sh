@@ -1,6 +1,9 @@
 #!/bin/bash
 # Automated deployment with version tracking for rayvise.ca
 # Usage: ./deploy-version.sh "Brief description" "- Detail 1\n- Detail 2"
+#
+# Internal docs: ~/.openclaw/workspace/projects/rayvise-internal-docs/
+# (kept private, not in Git repo)
 
 set -e
 
