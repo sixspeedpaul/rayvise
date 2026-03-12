@@ -1,5 +1,15 @@
 # Rayvise Website - Version History
 
+## v1.0.3 - 2026-03-12
+**Type:** SEO Optimization (Phase 1)
+- Added comprehensive meta tags (title, description, Open Graph, Twitter Card)
+- Implemented schema markup (LocalBusiness, FAQPage, Reviews, Service catalog)
+- Generated XML sitemap with image references
+- Created robots.txt with crawl directives
+- Optimized title tag: "Geometric Wildlife Tile Art | Stone Inlay | Ontario - Rayvise"
+- Improved image alt text for accessibility and SEO
+- **SEO Score**: 32/100 → 62/100 (estimated)
+
 ## v1.0.2 - 2026-03-12
 **Type:** Content Update
 - Updated David Chen testimonial photo
