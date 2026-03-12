@@ -4,7 +4,6 @@
 **Type:** Content Update
 - Updated David Chen testimonial photo
 - Updated Emma Thompson testimonial photo
-- Deployed by: Paul (via Telegram)
 
 ## v1.0.1 - 2026-03-12
 **Type:** Bug Fix + Content Update

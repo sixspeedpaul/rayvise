@@ -16,6 +16,19 @@ dist/
 # OS
 .DS_Store
 Thumbs.db
+._*
 
 # Logs
 *.log
+
+# Internal Documentation (keep private)
+RAYMOND-README.md
+WELCOME-MESSAGE-FOR-RAYMOND.md
+DEPLOYMENT-NOTES.md
+DEPLOYMENT-SUMMARY.md
+DNS-SETUP-GUIDE.md
+*-internal-*.md
+*INTERNAL*.md
+
+# Deployment scripts (keep local only)
+check-nameservers.sh
